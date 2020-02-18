@@ -1,0 +1,10 @@
+#Docker run is similar to do docker start and docker run
+
+# docker command providing the route incoming requests to this port on local host to... the second port inside the container
+docker run -p 8080:8080 <image name>
+
+# Docker build with context and using tagging
+docker build -t daespinel/xxxx .
+
+# A container is a process running on dedicated resources (cpu, ram, disk)
+# An Image is a file system snapshot with possible some starting command set up

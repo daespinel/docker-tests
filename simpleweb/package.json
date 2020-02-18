@@ -1,8 +1,8 @@
 {
-  "dependencies":{
-    "express": "*"
+  "dependencies" : {
+    "express" : "*"
   },
-  "scripts":{
-    "start": "node index.js"
+  "scripts" : {
+    "start" : "node index.js"
   }
 }
