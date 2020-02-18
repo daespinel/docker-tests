@@ -8,3 +8,6 @@ docker build -t daespinel/xxxx .
 
 # A container is a process running on dedicated resources (cpu, ram, disk)
 # An Image is a file system snapshot with possible some starting command set up
+
+# Attaching to a running container
+docker exec -it <container-id> sh
