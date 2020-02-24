@@ -1,0 +1,13 @@
+version: '3'
+
+# The types of containers
+services:
+  redis-server:
+    image: 'redis'
+
+# Look up at the current directory for the dockerfile
+  node-app:
+    build: .
+# port in local machine and then port in the container
+    ports:
+      - "4001:8081"

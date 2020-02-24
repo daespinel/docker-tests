@@ -11,3 +11,9 @@ docker build -t daespinel/xxxx .
 
 # Attaching to a running container
 docker exec -it <container-id> sh
+
+# Docker connectivity (communicate among independent containers): The user can either use the Docker CLI networking features or Docker Compose
+
+# Docker-compose automates some of the long-winded arguments we were passong to 'docker run' it also is used to start up multiple containers at the same time and connect them
+# A docker-compose.yml will contain all the options we'd normally pass to docker cli (docker build and docker run)
+
