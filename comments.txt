@@ -17,3 +17,16 @@ docker exec -it <container-id> sh
 # Docker-compose automates some of the long-winded arguments we were passong to 'docker run' it also is used to start up multiple containers at the same time and connect them
 # A docker-compose.yml will contain all the options we'd normally pass to docker cli (docker build and docker run)
 
+# Docker run myimage
+docker-compose up
+
+# Docker build and docker run myimage
+docker-compose up --build
+
+# Launch a group of containers in the background
+docker-compose up -d
+
+# Stop containers
+docker-compose down
+
+# docker compose restart policies: "no", always, on-failure, unless-stopped
